@@ -45,10 +45,6 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 https://github.com/kimosop/Ceaser-cipher
 
 
-## Link to Website
-https://kimosop.github.io/Caesar-cipher/
-
-
 ## Technologies Used
 This Web App was created using:
 * JAVA
