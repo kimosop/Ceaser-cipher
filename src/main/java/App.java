@@ -7,12 +7,12 @@ public class App {
 
         Console myConsole = System.console();
 
-        System.out.println("Input the plaintext message : ");
+        System.out.println("Input the plaintext message to be encrypted : ");
 
         String plaintext = myConsole.readLine();
 
 
-        System.out.println("Enter the value by which each character in the plaintext message gets shifted :");
+        System.out.println("Enter the value by which to shift the plaintext(value between 1-25) :");
 
         String shift = myConsole.readLine();
 
@@ -24,7 +24,7 @@ public class App {
 
         cipher.encode(plaintext , intShift);
 
-        System.out.println(" Your decoded text is : " + cipher.ciphertext);
+        System.out.println(" Your decrypted text is : " + cipher.ciphertext);
 
 
 
