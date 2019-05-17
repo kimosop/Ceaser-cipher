@@ -26,7 +26,6 @@ public class CeaserCipherTest {
     }
 
 
-
     @Test
     public void newCeaserCipher2_getsPlaintext2() {
         CeaserCipher2 testCeaserCipher2 = new CeaserCipher2("jgnnq", 2);
