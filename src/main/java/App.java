@@ -13,6 +13,7 @@ public class App {
 
         String shift = myConsole.readLine();
 
+
         int intShift = Integer.parseInt(shift);
 
 
